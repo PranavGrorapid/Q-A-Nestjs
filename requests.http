@@ -1,0 +1,25 @@
+
+
+### finding Answer to a particular question
+ 
+
+POST http://localhost:3000/qa/answer
+Content-Type: application/json 
+
+{
+  "question": "What is the capital of India?"
+  
+}
+
+
+### submitting a new qn and answer
+ 
+
+POST http://localhost:3000/qa/submit
+Content-Type: application/json 
+
+{
+  "question": "What is the capital of srilanka?",
+   "answer":"colombo"
+  
+}
